@@ -1,4 +1,16 @@
-#### [⇐ Previous (Plot)](readme.md) | [Next (shop_routes_pages) ⇒](donuts.md)
+-----------------------
+### Contents
+
+[Plot](readme.md)
+
+#### [Getting Started](readme.md)
+
+#### [Overview & Tables](readme.md)
+
+#### [Shop Routes and Pages](shop_routes_pages.md)
+
+#### [Donut Routes and Pages](donut_routes_pages.md)
+-------------------------
 
 # Overview
 
@@ -12,30 +24,33 @@ Your app consists of three resources: shops, employees, and donuts.
 
 ## Tables
 
-|Shop|
-|-|
-|id|
-|name (text)|
-|city (text)|
+|Shop
+|----------------
+|id
+|name (text)
+|city (text)
 
-|Donut|
-|-|
-|id|
-|name (text)|
-|topping (text)|
-|price (int)|
 
-|Shop_donut|
-|-|
-|id|
-|shop_id (fk)|
-|donut_id (fk)|
+|Donut
+|----------------
+|id
+|name (text)
+|topping (text)
+|price (int)
 
-|Employee|
-|-|
-|id|
-|first_name (text)|
-|last_name (text)|
-|favorite_donut (fk)|
+
+|Shop_donut
+|----------------
+|id
+|shop_id (fk)
+|donut_id (fk)
+
+
+|Employee
+|----------------|
+|id
+|first_name (text)
+|last_name (text)
+|favorite_donut (fk)
 
 #### [⇐ Previous (Getting started)](getting_started.md) | [Next (Shop Routes & Pages) ⇒](shop_routes_pages.md)

@@ -1,6 +1,18 @@
-#### [⇐ Previous 'Read Me'](shop_routes_pages.md)
+-----------------------
+### Contents
 
-## Donut Routes and Pages
+[Plot](readme.md)
+
+#### [Getting Started](readme.md)
+
+#### [Overview & Tables](readme.md)
+
+#### [Shop Routes and Pages](shop_routes_pages.md)
+
+#### [Donut Routes and Pages](donut_routes_pages.md)
+-------------------------
+
+## Donut Routes
 
 You'll be making a page (.ejs) for each `GET` request (see below).
 
@@ -13,6 +25,8 @@ You'll be making a page (.ejs) for each `GET` request (see below).
 | donut new page  | `GET`          | `/donuts/new`        |  `/donuts/new`
 | donut destroy   | `DELETE`       | `/donuts`            |  `/donuts`
 | donut create    | `POST`         | `/donuts`            |  `/donuts`
+
+# Donut Pages
 
 **Donut index page**
  - Lists all of the donuts.

@@ -1,4 +1,16 @@
-#### [⇐ Previous 'Plot'](readme.md) | [Next 'Overview' ⇒](overview.md)
+-----------------------
+### Contents
+
+[Plot](readme.md)
+
+#### [Getting Started](readme.md)
+
+#### [Overview & Tables](readme.md)
+
+#### [Shop Routes and Pages](shop_routes_pages.md)
+
+#### [Donut Routes and Pages](donut_routes_pages.md)
+-------------------------
 
 # Getting Started
 

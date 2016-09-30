@@ -1,4 +1,17 @@
-#### | [Next (Overview) ⇒](overview.md)
+-----------------------
+### Contents
+
+#### [Plot](readme.md)
+
+#### [Getting Started](readme.md)
+
+#### [Overview & Tables](readme.md)
+
+#### [Shop Routes and Pages](shop_routes_pages.md)
+
+#### [Donut Routes and Pages](donut_routes_pages.md)
+
+-------------------------
 
 # Donut Tycoon
 
@@ -18,17 +31,4 @@ Congratulations! Your name was found in the will of a deceased donut tycoon.  Ap
  - Access data in datastores through joins
  - Design and implement a RESTful API
 
------------------------
-### Contents
-
-#### [Plot](readme.md)
-
-#### [Getting Started](readme.md)
-
-#### [Overview & Tables](readme.md)
-
-#### [Shop Routes and Pages](shop_routes_pages.md)
-
-#### [Donut Routes and Pages](donut_routes_pages.md)
-
--------------------------
+#### [Next (Overview) ⇒](overview.md)

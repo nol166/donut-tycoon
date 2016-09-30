@@ -1,6 +1,18 @@
-#### [⇐ Previous 'Read Me'](overview.md) | [Next 'Getting Started' ⇒](donuts_routes_pages.md)
+-----------------------
+### Contents
 
-## Shop Routes and Pages
+[Plot](readme.md)
+
+#### [Getting Started](readme.md)
+
+#### [Overview & Tables](readme.md)
+
+#### [Shop Routes and Pages](shop_routes_pages.md)
+
+#### [Donut Routes and Pages](donut_routes_pages.md)
+-------------------------
+
+## Shop Routes
 
 You'll be making a page (.ejs) for each `GET` request (see below).
 
@@ -24,6 +36,8 @@ You'll be making a page (.ejs) for each `GET` request (see below).
 | shop employee new page | `GET`| `/shops/1/employees/new`  |  `/shops/:shop_id/employees/new`
 | shop employee create | `POST`| `/shops/1/employees`  |  `/shops/:shop_id/employees`
 | shop employee destroy | `DELETE`| `/shops/1/employees`  |  `/shops/:shop_id/employees`
+
+# Shop Pages
 
 **Shop index page**
  - This is your home page
