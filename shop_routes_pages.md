@@ -1,9 +1,11 @@
+## Shop Routes
+
 -----------------------
 ### Contents
 
-[Plot](readme.md)
+#### [Plot](readme.md)
 
-#### [Getting Started](readme.md)
+#### [Getting Started](gettting_started.md)
 
 #### [Overview & Tables](readme.md)
 
@@ -12,7 +14,6 @@
 #### [Donut Routes and Pages](donut_routes_pages.md)
 -------------------------
 
-## Shop Routes
 
 You'll be making a page (.ejs) for each `GET` request (see below).
 

@@ -1,19 +1,19 @@
+# Donut Tycoon
+
 -----------------------
 ### Contents
 
 #### [Plot](readme.md)
 
-#### [Getting Started](readme.md)
+#### [Getting Started](gettting_started.md)
 
 #### [Overview & Tables](readme.md)
 
 #### [Shop Routes and Pages](shop_routes_pages.md)
 
 #### [Donut Routes and Pages](donut_routes_pages.md)
-
 -------------------------
 
-# Donut Tycoon
 
 In this assessment, you'll build a RESTful, database-driven, HTTP server, using Express and Knex, to manage your migrated and seeded database.  You'll building this app using TDD!
 
@@ -31,4 +31,4 @@ Congratulations! Your name was found in the will of a deceased donut tycoon.  Ap
  - Access data in datastores through joins
  - Design and implement a RESTful API
 
-#### [Next (Overview) ⇒](overview.md)
+#### [Next (Getting Started) ⇒](getting_started.md)
