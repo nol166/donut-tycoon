@@ -6,7 +6,7 @@ In this assessment, you'll build a RESTful, database-driven, HTTP server, using 
 
 ## Plot
 
-Congratulations! Your name was found in the will of a deceased donut tycoon.  Apparently she had no next of kin, and your name was the first result on google when she searched 'booyah'.  Naturally, she placed YOU as the heir to all of her donut shops before she passed.  Now the fate of 'dozens' of donut shops lies in your capable coding hands.  You must create an app that will allow you to manage your donut shops and keep track of supplies. Donut let us down!
+Congratulations! Your name was found in the will of a deceased donut tycoon.  Apparently she had no next of kin, and your name was the first result on google when she searched 'booyah'.  Naturally, she placed YOU as the heir to all of her donut shops before she passed.  Now the fate of 'dozens' of donut shops lies in your capable coding hands.  You must create an app that will allow you to manage your donut shops and keep track of employees. Donut let us down!
 
 **Time:** One Day
 
