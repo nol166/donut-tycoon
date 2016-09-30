@@ -63,4 +63,4 @@ You'll be making a page (.ejs) for each `GET` request (see below).
  - Has listing of all of the employees for that shop
  - **The rest of the employee pages are pretty much the same as shop except with employees for that shop_id**
 
-#### [⇐ Previous 'Read Me'](overview.md) | [Next 'Getting Started' ⇒](donuts_routes_pages.md)
+#### [⇐ Previous 'Read Me'](overview.md) | [Next 'Getting Started' ⇒](donut_routes_pages.md)
