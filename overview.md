@@ -1,5 +1,3 @@
-# [Not complete for user registration/auth: TODO - update employee table and routes]
-
 # Overview
 
 -----------------------
