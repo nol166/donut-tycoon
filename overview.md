@@ -1,3 +1,5 @@
+# [Not complete for user registration/auth: TODO - update employee table and routes]
+
 # Overview
 
 -----------------------
@@ -15,7 +17,9 @@
 -------------------------
 
 
-Your app consists of three resources: shops, employees, and donuts.
+Your app consists of three resources: shops, employees, and donuts.  Employees are able to login and edit their own information, but not other employees.
+
+Business Rules:
 
  - Shops have many donuts, many donuts belong to many shops.
  - Shops have many employees, employee belongs to a shop.
@@ -52,6 +56,8 @@ Your app consists of three resources: shops, employees, and donuts.
 |id
 |first_name (text)
 |last_name (text)
+|email (text)
+|hashed_password
 |favorite_donut (fk)
 
 
