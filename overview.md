@@ -5,9 +5,9 @@
 
 #### [Plot](readme.md)
 
-#### [Getting Started](gettting_started.md)
+#### [Getting Started](getting_started.md)
 
-#### [Overview & Tables](readme.md)
+#### [Overview & Tables](overview.md)
 
 #### [Shop Routes and Pages](shop_routes_pages.md)
 
@@ -53,5 +53,6 @@ Your app consists of three resources: shops, employees, and donuts.
 |first_name (text)
 |last_name (text)
 |favorite_donut (fk)
+
 
 #### [⇐ Previous (Getting started)](getting_started.md) | [Next (Shop Routes & Pages) ⇒](shop_routes_pages.md)

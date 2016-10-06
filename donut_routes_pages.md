@@ -5,9 +5,9 @@
 
 #### [Plot](readme.md)
 
-#### [Getting Started](gettting_started.md)
+#### [Getting Started](getting_started.md)
 
-#### [Overview & Tables](readme.md)
+#### [Overview & Tables](overview.md)
 
 #### [Shop Routes and Pages](shop_routes_pages.md)
 

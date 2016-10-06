@@ -5,9 +5,9 @@
 
 #### [Plot](readme.md)
 
-#### [Getting Started](gettting_started.md)
+#### [Getting Started](getting_started.md)
 
-#### [Overview & Tables](readme.md)
+#### [Overview & Tables](overview.md)
 
 #### [Shop Routes and Pages](shop_routes_pages.md)
 
@@ -21,8 +21,8 @@
    - Create your `server.js`
    - Create your folders
    - `npm init`
-   - install production dependencies
-     - ejs, bodyparser, pg, knex
+   - install dependencies
+     - express ejs, bodyparser, pg, knex
    - install dev dependencies
      - mocha, chai, supertest, morgan
    - Setup your `npm start` and `npm test` commands in your `package.json` file to run in the appropriate environments
