@@ -1,6 +1,6 @@
-# [Not complete for user registration/auth: TODO - update employee table and routes]
 
 # Donut Tycoon
+Express Knex CRUD /w optional TDD
 
 -----------------------
 ### Contents
