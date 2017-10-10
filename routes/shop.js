@@ -15,6 +15,15 @@ router.get('/new', (req, res) => {
   res.render('shops/new');
 });
 
+router.delete('/:id/', (req, res) => {
+  knex('shop')
+  .where({id: req.params.id})
+  .del()
+  .then( ()=> {
+    res.redirect('/shops')
+  })
+})
+
 router.get('/:id/edit', (req, res) => {
   knex('shop').where({
     id: req.params.id
@@ -26,9 +35,12 @@ router.get('/:id/edit', (req, res) => {
   })
 });
 
+
+
 router.patch('/:id/', (req, res, next) => {
   console.log('connected to edit')
-  knex('shop/:id')
+  knex('shop')
+  .where('id', req.params.id)
     .update({ name: req.body.name, city: req.body.city})
     .then((shop) => {
       res.redirect("/shops");
@@ -56,6 +68,7 @@ router.post('/', (req, res, next) => {
       next(err);
     });
 });
+
 
 
 
