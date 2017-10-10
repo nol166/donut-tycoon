@@ -12,11 +12,13 @@ app.use(methodOverride('_method'))
 app.set('view engine', 'ejs');
 
 var shop = require('./routes/shop')
+var donuts = require('./routes/donuts')
 // var donut = require('./routes/donut')
 // var shop_donut = require('./routes/shop_donut')
 // var employee = require('./routes/employee')
 
 app.use('/shops', shop);
+app.use('/donuts', donuts);
 
 app.listen(process.env.PORT || 8080);
 console.log('Woot, server started');

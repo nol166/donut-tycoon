@@ -6,7 +6,7 @@ var knex = require('../db/knex');
 
 router.get('/', (req, res) => {
   // get all of the shop records
-  console.log('booyah')
+  // console.log('booyah')
   knex('shop')
   .then( shop => res.render('shops/index', { shop: shop}) )
 });
