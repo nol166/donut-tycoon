@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>donut-tychoon</title>
+  </head>
+  <body>
+    <h1>All the shops!</h1>
+    <a href="/shops/new">Create a shop!</a>
+    </form>
+    <ul>
+      <% shop.forEach( (shop) => {  %>
+        <li>
+        <a href="/shops/<%=shop.id%>">
+        <b><%= shop.name %></b>
+        <i><%= shop.city %></i>
+        </a>
+        <p><a href="/shops/<%=shop.id%>/edit">edit</a></p>
+        </li>
+      <% }) %>
+    </ul>
+  </body>
+</html>

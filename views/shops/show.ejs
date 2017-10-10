@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>donut-tychoon</title>
+  </head>
+  <body>
+    <h1>Check out this shop!</h1>
+
+    <ul>
+      <% shop.forEach( (shop) => {  %>
+        <li>
+        <%= shop.name %>
+        <%= shop.city %>
+        <%= shop.id %>
+        </li>
+      <% }) %>
+    </ul>
+  </body>
+</html>

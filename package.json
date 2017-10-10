@@ -1,0 +1,31 @@
+{
+  "name": "donut-tychoon",
+  "version": "1.0.0",
+  "description": "Express Knex CRUD /w optional TDD",
+  "main": "server.js",
+  "scripts": {
+    "test": "NODE_ENV = test mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gSchool/donut-tychoon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gSchool/donut-tychoon/issues"
+  },
+  "homepage": "https://github.com/gSchool/donut-tychoon#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.1",
+    "knex": "^0.13.0",
+    "mocha": "^4.0.1",
+    "morgan": "^1.9.0",
+    "pg": "^7.3.0",
+    "supertest": "^3.0.0"
+  }
+}

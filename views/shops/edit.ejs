@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>donut-tychoon</title>
+  </head>
+  <body>
+    <h1>Edit</h1>
+    <h5>You are editing information for <%= shop.name %> located in <%= shop.city %></h5>
+    <form class="edit" action="/shops/<%= shop.id %>" method="patch">
+      <div>
+        <label>Name:</label>
+        <input value='<%= shop.name %>' name='name'>
+      </div>
+      <div>
+        <label>City:</label>
+        <input value='<%= shop.city %>' name='city'>
+      </div>
+      <input type="submit" name='submit'>
+    </form>
+    <ul>
+    </ul>
+  </body>
+</html>
