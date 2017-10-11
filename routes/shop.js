@@ -50,12 +50,24 @@ router.patch('/:id/', (req, res, next) => {
     });
 });
 
-router.get('/:id', (req, res) => {
+router.get('/:id/', (req, res) => {
+  console.log('booyah')
   //get a specific shop information
-  knex.select().table('shop').where({
-    id: req.params.id
-  }).then( shop => res.render('shops/show', { shop: shop}) )
-});
+  knex('shop')
+  .select('shop.name as shopName', 'shop.city', 'shop.id as shopId', 'donuts.name as donutName')
+  .where({'shop.id': req.params.id})
+      .innerJoin('shop_donuts', 'shop_id', 'shop.id')
+      .innerJoin('donuts', 'donuts.id', 'shop_donuts.donut_id')
+      .then(function (data) {
+        console.log('Shop Join Data', data);
+        res.render('shops/show', {shop: {name: data[0].shopName, city: data[0].city, id: data[0].id}, donuts: data});
+      })
+      .catch(err =>{
+        console.log(err);
+        res.send(err)
+      });
+    });
+
 
 
 router.post('/', (req, res, next) => {

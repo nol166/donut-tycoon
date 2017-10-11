@@ -7,12 +7,12 @@
   </head>
   <body>
     <h1>Check out this shop!</h1>
+    <%= shop.name %>
+    <%= shop.city %>
+    <p><i>Shop ID:</i> <%= shop.id %></p>
     <ul>
-      <% shop.forEach( (shop) => {  %>
-        <%= shop.name %>
-        <%= shop.city %>
-        <p><i>Shop ID:</i> <%= shop.id %></p>
-
+      <% donuts.forEach( (donut) => {  %>
+      <li><%= donut.donutName %></li>
       <% }) %>
     </ul>
     <p>
